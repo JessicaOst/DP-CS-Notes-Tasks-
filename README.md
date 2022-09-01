@@ -2,7 +2,13 @@
 notes and tasks from IB Diploma CompSci 
 
 CONTENTS
+
+
 8/24  4TH INDUSTRIAL REVOLUTION
+
+
+
+8/26 CREATE YOUR OWN LANGUAGE 
 
 
 
