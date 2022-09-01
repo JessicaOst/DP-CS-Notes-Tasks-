@@ -1,0 +1,65 @@
+print(""" Starting 
+
+  Systems
+  
+Pick one:
+  - Systems 
+  - Legacy Systems 
+  - PLanning 
+  - Feasibility, including TELOS
+  - Change managment 
+  - Business Merger 
+  - Real World Example: US Post Office 
+  - Hypothetical Example: Encylopedia Sales
+  """)
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+if(userchoice == "Systems"):
+  print("""A system is referring to a full on IT system of all related parts: the people, the environment, training employees and users, and maintaing and protecting data or hardware""")
+elif(userchoice == "systems"):
+  print("""A system is referring to a full on IT system of all related parts: the people, the environment, training employees and users, and maintaing and protecting data or hardware""")
+if(userchoice == "Legacy Systems"):
+  print("""a legacy system is a really old and outdated computer software or hardware that are still in use. They are sometimes used in tandem to newer systems in order to meet clients needs because sometimes newer  technology alone isn't able to meet them by itself.""")
+elif(userchoice == "legacy sytems"):
+    print("a legacy system is a really old and outdated computer software or hardware that are still in use. They are sometimes used in tandem to newer systems in order to meet clients needs because sometimes newer  technology alone isn't able to meet them by itself.")
+if(userchoice == "Planning"):
+  print("""Planning and implementing a new systems includes discussing new hardware, changing the techs location, new training and improving skills, and implementing new polices.
+  Things to considerwhile planning: 
+  - Business strategy 
+  - Stakeholder
+  - End-user participation 
+  - End-user "ownership" 
+  - Required training 
+  - Organizational issues, including group culture 
+  - Design of tasks 
+  - Overall usability of the system
+""")
+elif(userchoice == "planning"):
+  print("""Planning and implementing a new systems includes discussing new hardware, changing the techs location, new training and improving skills, and implementing new polices.
+  Things to considerwhile planning: 
+  - Business strategy 
+  - Stakeholder
+  - End-user participation 
+  - End-user "ownership" 
+  - Required training 
+  - Organizational issues, including group culture 
+  - Design of tasks 
+  - Overall usability of the system""")
+if(userchoice == "Feasibility, including TELOS"):
+  print("""A feasibility study is used to asses whether a proposed project should be undertaken. It does by assessing feasibility in four areas: Economic feasibility, technical feasibility, operational feasibility, schedule feasibility, and legal feasibility
+  - Economic feasibility: Budget and how it will be spent. Overlaps other things like technical, organisational, and schedules
+  - Technical Feasibility: relates to the hardware and software withing a buisness. Is it realistic to purchase new technology
+  - Operational Feasibility: will the participants be able to handle a new system? Employees technical skills, would staff be able for training, such as training manuals
+  - Schedule Feasibility: the amount of time allocated to the development of a new sytem. The time frame needs to be assesed, as projects run iver time they can have financial and organisational impact. 
+  - Legal Feasibility: are there any cnlicts between the proposed system and any local laaws, regulations, etc. """)
+if(userchoice == "Change management"):
+  print("""Change systems almost always include some type of change managment. This could mean shifting, hiring, or letting employees/entire departments go. It can also just mean changing up the working process. """)
+if(userchoice == "Business Merger"):
+  print("""the unities between two existing companies into one new company.""")
+if(userchoice == "US Post Office"):
+  print("The US Post Office uses technology instead of physically writing out addresses to sort mail out into their correspoonding areas, but if the machine can't read it then it would go back to the old system where its done manually, but its logged into the automation system. Now 99% of mail is ran through and red through a computer first.")
+if(userchoice == "Encyclopedia Sale"):
+  print("""If an Encyclopedia company switched from a door-to-door/person-to-person style and a secratary inputting the information themselves. They'd switch to in putting their own technology. This would probably lower the secrataries value to the company first off, but this also lowers chance for mistake. The secreatary in some ways will probably just check whats being sent through to make sure everything is formated correctly. """)
