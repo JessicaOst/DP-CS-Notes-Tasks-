@@ -1,0 +1,55 @@
+print("""Continuing Systems...
+
+
+Pick one: 
+Warm-up: 
+- System Changeover 
+- Related to Data Migration 
+- Phases in Data Migration 
+- Issues in Data Migration
+- Related to business M&A
+- Merger vs Acquisition 
+- System Itegration follow M&A""")
+
+answer = "empty"
+userchoice = input()
+while(answer == "empty"):
+  answer = "chosen"
+if(userchoice == "system changeover"):
+  print("""It is a switch from one system to another. The larger the environment, the more complicated and problematic a switch will be. those like a medical facility, power plant or communication provider that handle peoples livelyhood, health and wellness or infrastructure. It can be considered a system or proccess which a company relies on. It can be a new system implemented into an already established larger system. 
+  Sometimes it's met with consumer or employee resistance. It is best to plan ahead of time to avoid these challenges.
+  These are a few implementation methods:
+  - Parallel: both systems work at the dame time allowing meausring the output of the new system before getting rid of the old one. The downfalls to this method is that it can be far more expensive because it might take additional man hours, additional computer/network resources; and if the systems are drastically different this can be extremely ineffecient.
+  - Big Bang/Direct/Immediate: As soon as implementations are made, the new system is discontinued. It is the least taxing on computer and network systems, but it requires extensive training and a teritary system to store date while the changeover occurs. 
+  - Pilot: Common with bigger organizations that have multiple sites. This allows the company to to test out the new system and fix issues without taking on such a great risk. Once they believe it is successful enough to implement it to their other sites they are able to use the pilot group as a model.
+  - Phased: When the new system is implemented in phases. Usually means that the systems have to be alike to facilitate the transition of date from one system to another. Training is extended and take a long time to completely phased out. The phases can be based on certain proccesses, functions, or departments. """)
+elif(userchoice == "related to data migration"):
+  print("""It is a big problem that sometimes gets put off. It looks at the quality of data and whether it is the approriate date to put into the new system. If these things aren't done corrrectly we're looking at poor yser adaption, post go live disruption, delayed projects, and overall just turns more expensive. 
+  Date quality really is the main point of data migration, you're looking at the business processes, how to structure the data and make sure the buisness runs in the most effecient way possible. """)
+elif(userchoice == "phase in data migration"):
+  print("""
+  - Plan: determining the requirements of the migration. Future environment, development, and documentation of the migration lpan 
+  - Migrate: all needed software and hardware are otained, installed, and configured, and the process of trasference occurs 
+  - Validate: Test to check that data is in the same state as before the migration. Highly recommeneded to run both pre- and post- migration to have a benchmark. """)
+elif(userchoice == "issues in data migration"):
+  print("""
+  - Complications changing mediums (paper to digital) 
+  - Incompatibility of daya types in digital formats(data stored in pdfs to go into a csv spreadsheet format) 
+  - Data process times out 
+  - Data process fails 
+  - Data process encounters error 
+  - Data could be misinterpretted leading to incompatibilities(cloud occur if incorporating systems from other regions like an international system).""")
+elif(userchoice == "related to business m&a"):
+  print("""When two or more business merge or create an acquisition it's pretty certain there will also be changes to the systems because they integrate into one. This might happen to reduce costs, contrlling more of the process or reducing competition. It is a competitive advantage. """)
+elif(userchoice == "merger vs acquisition "):
+  print("""
+  - Horizontal: two companies that sell the same product/service come together. They have different costumer bases (HP and Compaq)
+  - vertical: When a company purchases up/down the supply chain (appple were to aquire a factory producing iphone parts). Driven by wanting more control or power over pricing.
+  - Concentric: two companies with two different products and service, but with the same costumer base. Driven by cross-selling growing the top-line. Difficult. 
+  - Conglomerate: completely difference businesses and different costumers. The idea was to diversify. Popular in the 70s, not so much now because niche markets are more appealing.""")
+elif(userchoice == "system integration follow m&a"):
+  print("""Then they chose a strategie for the integration: 
+  - Both systems may be kept, with development to have the functionality. Running both systems in parallel has high maintance costs. 
+  - Both systems may be replaced with a new system. New system might meet the newcompany organization's needs bette. Higher inital costs, including new training. 
+  - Select the best system from each and merge them. Providing familiarity for employees. Takes time to adjust because to operating by habit in some parts. 
+  - select the better of the two systems and drop the other system entirely. Possible resistance to change and policy issues. """)
