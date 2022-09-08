@@ -1,0 +1,31 @@
+print("""
+Implementing Systems 
+
+pick one: 
+1)SaaS
+2)On-premise Software 
+3)System Life Cycle 
+4)Functional Testing 
+*type in a number NOT the phrase""")
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+
+if(userchoice == "1"):
+  print("""Saas: Software as a Service or cloud computing. Its an off premise software meaning it uses the internet to connect to servers from the manufacturer. It is licensed on a subscription basis and is centrally hosted. It can be referred to as "on demand".
+  Ex: Google Docs""")
+elif(userchoice == "2"):
+  print("""On-premise Software: Software that runs in computers on the premises of the organization usingthe software. Typically require having on-sight IT professionals. It may require remote access with software/system provider, IT Support or Software Engineer to travel to help resolve their issues. Small companies might really feel the unexpected cost brought on by On-premise software.""")
+elif(userchoice == "3"):
+  print("""System Life Cycle: Access this knowing you'll move back and forth between stages as well as move through the entire cycle all over again because needs change overtime. 
+  1. Planning - outline the requirments for the application 
+  2. Requirment Analysis - Define each outline requirment and further detail the plan. 
+  3. Design- takes all the requirements and starts to plan the final product; code, colors, framework, system server design, databse relationship, mobile. aspects, supporting software, etc. 
+  4. Implementation/ Coding - begin coding the final product.
+  5. Testing - testing and executing testing cases. Find as many bugs as possible, wrong color, logout, easy to hack into. 
+  6. Deployment- End up mirroring the stages of testing, begin installing the software, hardware, links, etc. preparing to launch the final product.
+  7. Maintenance - monitor the stress of the servers so it doesn't breakdown the system. Implementing bigger servers. There will be bugs in the final production leading to Production Support.""")
+elif(userchoice == "4"):
+  print("""Functional Testing: the process of evaluating and verifying that a product or application does what it is meant to do the best way possible. It also allows the business to understand the risks of software implemination.""")
