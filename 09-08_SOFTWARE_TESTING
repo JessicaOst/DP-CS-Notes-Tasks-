@@ -1,0 +1,45 @@
+print("""
+
+Software Testing 
+
+Pick one: 
+*type number 
+1) Debugging 
+2) Validation vs. verification 
+3) Testing & types of testing:
+     - dry-run
+     - functional 
+     - unit 
+     - integration 
+     - user acceptance 
+     - alpha
+     - beta 
+4) Types of date used in testing: 
+     - normal
+     - at the limits
+     - extreme 
+     - abnormal 
+     """)
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+if(userchoice == "1"):
+  print("""Debugging - the systamatic process of correcting bugs or erros in a program. Bugs can put people lives in danger and can cause businesses financal loss.  """)
+elif(userchoice == "2"):
+  print(""" - Validation: the processs of checking whether the specification captures the customer's requirements
+  - Verification: the process of cehcking that the software meets specifications.""")
+elif(userchoice == "3"):
+  print(""" - Dry-run: manually move through the code with pen-and-paper, to determine the expected outcoe when the code is executed.
+  - Functional testing: testing individual commands, text input, menu functions and so on
+  - Unit: Seperately testing the individual components or parts of a system or software. 
+  - Integration: The components are testing together within the system or software to verify that everything works correctly with each other. 
+  - User Acceptence: determining if the system satisfies the customer's needs/ Usually on-premise before the system/software is shipped or transfered to the costumer. 
+  - Alpha: The software/system is release to those within the company or organizaition who are not specifically involvd in the development or implementation of the product. 
+  - Beta: the software system is available to the public.The most realistic testing data a company or organization can get before the product is fully available.""")
+elif(userchoice == "4"):
+  print("""- Normal: Typical (expected) and should be accepeted by the system.
+  - At the Limits:  a pair of values at each end of a range. The data at the upper or lower limits of expectations that should be accepted. The immediate values before or beyond the limits of expectations that should be rejected. 
+  - Extreme: Testing data at the upper or lower limits of expectations that should be accepted by the system. 
+  - Abnormal: falls outside of what is acceptable and should be rejected by the system.""")
