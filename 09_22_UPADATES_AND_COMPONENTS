@@ -1,0 +1,96 @@
+print("""
+
+Updates and Components 
+
+.....
+
+pick one 
+
+Loss Prevention
+
+0)Update Terminology
+
+1)Hardware
+2)Software
+3)Peripheral devices
+4)Computer Network
+5)Human Resources
+6)Dumb Terminal 
+7)Thin Client 
+8)Email Server 
+9)Router
+10)DNS Server 
+11)Firewall
+12)Client-server""")
+answer = "empty"
+userchoice = input()
+
+while (answer == "empty"):
+    answer = "chosen"
+
+if (userchoice == "1"):
+    print("""
+  Hardware: the physical parts of the system. 
+  """)
+elif (userchoice == "2"):
+    print("""
+  Software: Set of instructions which make the computer system do something useful. Collected in owrkable groups known as programs. Computers would not be able to function without it. 
+  Types of Software:
+  - Application Software: program/set of instructions that make the computer carry out a task. makes the computer do something for the user ( Word and PowerPoint) 
+  - System Software: instructions that make the hardware of the computer ready for use. (programs allowing humans to communicate with the computer, programs that control the movement of data, and programs that turn instructions from human form into that that the computer can understand)"""
+          )
+elif (userchoice == "3"):
+    print("""
+  Peripheral Device: 
+  -Hardware devices outside the computer processor 
+  -Connected to the computer by cables 
+  - Ex: Printer 
+  - Ex 2: Hard disk
+  Types of Peripheral Devices: 
+  - Input device: allows data to be transmitted to the computer processor (ex. keyboard, mice, mic, etc.)
+  - Output Device: device that allows the computer to output information(prnter, monitor, headphones/speakers, etc.
+  - Storage: hardware which can store data outside the processor in a form wich is suitable for input back into the processor. 
+    data must be saved for future purpososes when turned of 
+    date must be transfered from one device to another """)
+
+elif (userchoice == "4"):
+    print("""
+  Computer Network: A set of computer systems that are interconnected and share resources, as well as date (Ex: Local Area Network, Wide Area Network, Etc.). Meant to connected servers and clients together. """
+          )
+elif (userchoice == "5"):
+    print("""
+  Human Resources: people who are a part of an organization, business, or economy"""
+          )
+elif (userchoice == "6"):
+    print("""
+    Dumb Terminal: serves only as an input/output device for attached or network-linked processors """)
+elif (userchoice == "7"):
+    print("""
+  Thin Client: a computer that uses resources housed inside a centralserver as opposed to a hard drive. Connecting to a server-based environment hosting applications, memory, and other sensitive date the user needs.""")
+elif (userchoice == "8"):
+    print("""
+    Email Server: """)
+elif (userchoice == "9"):
+    print("""
+  Router: identifies the packet's destination and calculates the best way for it to get there. Keeps track of which way internet traffic goes (it's the reason our emails don't end up on our coworkers inbox). 
+  *they can be stand alone devices or virtual (software instance).""")
+elif (userchoice == "10"):
+    print("""
+    DNS Server: translate requests for names into IP addresses, controlling which server an end user will reach wehn they type a domain name into their web browser. """)
+elif (userchoice == "11"):
+    print("""
+    Firewall: part of a computer system/network meant to block unautheriozed qccess while permitting outward communication.""")
+elif (userchoice == "12"):
+    print("""
+    Client-server: denoting a computer system in which a central server provides data to a number of networked workstations
+    Ex: Web rowsers and servers""")
+elif (userchoice == "0"):
+    print("""
+  - Patches: Used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that pacthes may introduce new bugs 
+  - Upgrades:contain a novel function or characteristic, as well as cumulative bug fixes. Upgrades often require an additional purchase. 
+  -Updates: improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. May be obtained manually or automatic through internet connection.
+  - Releases: final working versions of stofware applications. Should undergo alpha and beta testing before. (new product/upgraded product)
+  """)
+else:
+    print("INVALID, pls try again")
+    answer = "empty"
