@@ -1,0 +1,37 @@
+print("""
+
+
+
+What is WCAG and Related Solutions 
+
+
+
+
+1)What is WCAG?
+2)What was WCAG released? 
+3)Who works on WCAG? 
+4)What is WCAG 2.1 in comparison to WCAG 2.0? 
+""")
+answer = "type here"
+userchoice = input()
+
+while (answer== "type here"):
+  answer = "chosen"
+if (userchoice == "1"):
+  print("""
+  What is WCAG: the Web Content Accessibility Guidelines provides technical specifications to improve the accessiblity of web content, websites, and web applications on desktop computers
+  Levels og WCAG: 
+  -A: the most basic web accessibility features
+  -AA: Deals with the biggest and most common barriers for users with disabilities 
+  -AAA: The highest (and most complex level of web accessibility)  """)
+if (userchoice == "2"): 
+  print("""
+  What was WCAG released: 
+  WCAG 2.0 was released almost 10 yeats ago with """)
+if (userchoice == "3"): 
+  print("""
+  who works on WCAG? 
+  the World Wide Web Consortium(W3C) """)
+if (userchoice == "4"):
+  print("""What is WCAG 2.1 in compariso to WCAG: 
+  WCAG 2.1 is the updated version of WCAG. It comes with a success criteris that helps the web be more accessible. WACAG 2.1 also comes with a few more criteria than the first one.""")
