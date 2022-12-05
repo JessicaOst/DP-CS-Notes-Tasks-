@@ -1,0 +1,44 @@
+print("""
+
+
+UX Research 
+
+pick one 
+
+1)Wireframe
+2)Mockup 
+3)Protype 
+""")
+answer = "empty"
+userchoice = input()
+
+while(answer == choice):
+  answer = "chosen"
+
+if(userchoice == "1"):
+  print("""Wireframe - a planning diagram to communicate the overall layout """)
+elif(userchoice == "2"):
+  print("""Mockup - a planning illustration to communicate the final appearance """)
+elif(userchoice == "3"):
+  print("""Prototype - 
+  1. a planning tool to communicate the functionality 
+  2. finished version used for quality assurance before mass-production""")
+
+print(""" 
+
+
+Task 1 part 2 
+1)Do you think any of today's content would be useful for your IA would be beneficial? 
+3) Do you plan to use any of them for your IA? """)
+answer = "empty"
+userchoice = input()
+
+while(answer == choice):
+  answer = "chosen"
+
+if(userchoice == "1"):
+  print("""Do you think any of today's content would be useful for your IA would be beneficial? 
+  I believe the content covered today was essential to our IA in order to evaluate the product and take notes of its: accessibility, performance, ejoyment, and identifying problems before we turn it in """)
+elif(userchoice == "2"): 
+  print("""Do you plan to use any of them for your IA? 
+  Yes I will be using UX Research when i actually complete my IA because I believe followig these princples will help the end product be the best it possibly cold be to my ability""")
